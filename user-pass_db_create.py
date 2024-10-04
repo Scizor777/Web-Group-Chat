@@ -1,6 +1,6 @@
 from app import db_login,app,log_info
-name = "diyansh"
-passw = "80800"
+name = ""   # add new name and passwd and run the program to add new user
+passw = ""
 
 with app.app_context():
     newuser = log_info(username=name,password=passw)
